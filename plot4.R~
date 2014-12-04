@@ -2,11 +2,6 @@ plot4 <- function(){
   ## function plot4.R makes panel with four plots
   ## showing change in time of variables from Houshehold power 
   ## consumption file, for the first two days in February 2007
-
-  ## In	order to run this code, first download	  
-  ## https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-  ## unzip the file and put the	"household_power_consumption.txt"
-  ## file in your working directory (together with plot4.R)
   
   ## reading in household power consuption data 
   ## caution: all data read in as characters

@@ -2,11 +2,6 @@ plot1 <- function(){
   ## function plot1.R plots a histogram of 
   ## Global Active Power in kilowatts
 
-  ## In order to run this code, first download  
-  ## https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-  ## unzip the file and put the "household_power_consumption.txt" 
-  ## file in your working directory (together with plot1.R)
-
   ## reading in household power consuption data 
   ## caution: all data read in as characters
   household_data <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?", colClasses ="character")
